@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "The Tactical Evolution of the Modern Game",
+      "author": "Jane Smith",
+      "body": "Football has undergone significant tactical changes in the past decade, with new formations, pressing strategies, and player roles emerging. This piece examines the evolution of tactics and how they have transformed the way the game is played at the highest level.",
+      "id": "2"
+    },
+    {
+      "title": "The Untold Stories of Football's Unsung Heroes",
+      "author": "Michael Johnson",
+      "body": "While the spotlight often shines on the star players, there are many unsung heroes in football whose contributions often go unnoticed. This article delves into the stories of these players and the vital roles they play in their teams' success.",
+      "id": "3"
+    }
+  ]
+}

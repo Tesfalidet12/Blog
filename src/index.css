@@ -1,13 +1,144 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 600px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: hsla(0, 100%, 50%, 0.863);
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  text-decoration: none;
+  margin-left: 16px;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: hsla(0, 100%, 50%, 0.863);
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.blogPerview {
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-bottom: 1px solid #18161659;
+}
+.blogPerview:hover {
+  box-shadow: 1px 3px 3px black;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+.blogPerview h2 {
+  font-size: 20px;
+  color: hsla(0, 100%, 50%, 0.863);
+  margin-bottom: 8px;
+}
+.blogPerview a {
+  text-decoration: none;
+}
+.blogDetails h2 {
+  font-size: 22px;
+  color: hsla(0, 100%, 50%, 0.863);
+  margin-bottom: 10px;
+}
+.blogDetails div {
+  margin: 20px 0;
+}
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  align-items: center;
+}
+.create h2 {
+  font-size: 20px;
+  color: hsla(0, 100%, 50%, 0.863);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  display: block;
+  border-radius: 5px;
+}
+.btn {
+  text-align: center;
+}
+.create button {
+  margin-top: 10px;
+
+  padding: 5px 10px;
+  font-size: 1.12em;
+
+  background-color: hsla(0, 100%, 50%, 0.863);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.create button:hover {
+  background-color: hsla(0, 100%, 50%, 0.967);
+}
+
+.blogDetails button {
+  padding: 5px 10px;
+  font-size: 1.2em;
+  background-color: hsla(0, 100%, 50%, 0.767);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.blogDetails button:hover {
+  background-color: hsla(0, 100%, 50%, 0.867);
+}
+.notFound {
+  text-align: center;
+}
+.notFound h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.notFound h2 {
+  color: hsla(0, 100%, 50%, 0.867);
+  margin-bottom: 5px;
+}
+.notFound button {
+  margin-top: 15px;
+  padding: 7px 12px;
+  border-radius: 7px;
+  border: none;
+  background-color: hsla(0, 100%, 50%, 0.867);
+}
+.notFound button a {
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+}
+.notFound button:hover {
+  background-color: hsla(0, 100%, 50%, 0.967);
 }
